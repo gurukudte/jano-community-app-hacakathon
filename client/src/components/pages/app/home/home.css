@@ -1,0 +1,124 @@
+.jano-app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jano-app header {
+  position: sticky;
+  top: 0;
+  border-bottom: 0.01rem solid white;
+  background-color: black;
+}
+.jano-app header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.jano-app header nav .nav-left {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+.jano-app header nav .nav-right {
+  display: flex;
+  gap: 1rem;
+}
+.jano-app main {
+  height: 100%;
+  overflow: scroll;
+}
+.jano-app main .main-status {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-bottom: 0.01rem solid white;
+}
+.jano-app main .main-status .main-status-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.jano-app main .main-status .main-status-wrapper .main-status-profile {
+  padding: 0.2rem;
+  background: linear-gradient(to bottom, #0066ff 0%, #ff0066 100%);
+  border-radius: 3.5rem;
+  display: flex;
+}
+.jano-app main .main-status .main-status-wrapper .main-status-profile img {
+  height: 3rem;
+  border-radius: 1.5rem;
+}
+.jano-app main .main-status .main-status-wrapper h2 {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.jano-app main .main-post {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.01rem solid white;
+}
+.jano-app main .main-post .main-post-header {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.jano-app main .main-post .main-post-header .main-post-header-left {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+.jano-app main .main-post .main-post-header .main-post-header-left img {
+  height: 2rem;
+  border-radius: 1rem;
+}
+.jano-app main .main-post .main-post-header .main-post-header-left h1 {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.jano-app main .main-post .main-post-img img {
+  height: 15rem;
+}
+.jano-app main .main-post .main-post-options {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.jano-app main .main-post .main-post-options svg {
+  height: 1.5rem;
+}
+.jano-app main .main-post .main-post-options .main-post-options-left {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.jano-app main .main-post .main-post-options .main-post-options-left .main-post-options-left-likes {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.jano-app main .main-post .main-post-options .main-post-options-left .main-post-options-left-likes h1 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.jano-app main .main-post .main-post-options .main-post-options-left .main-post-options-left-comments {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.jano-app main .main-post .main-post-options .main-post-options-left .main-post-options-left-comments h1 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.jano-app main .main-post .main-post-timeline {
+  padding: 0 0 0.5rem 0.5rem;
+}
+.jano-app main .main-post .main-post-timeline span {
+  font-size: 0.7rem;
+}
+
+.active {
+  color: aqua;
+}/*# sourceMappingURL=home.css.map */

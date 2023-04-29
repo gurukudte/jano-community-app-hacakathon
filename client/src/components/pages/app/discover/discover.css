@@ -1,0 +1,45 @@
+.discover {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.discover .discover-search {
+  position: sticky;
+  background: #272929;
+  top: 0;
+  padding: 0.5rem;
+  border-bottom: 0.01rem solid white;
+}
+.discover .discover-search .discover-search-wrapper {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.discover .discover-search .discover-search-wrapper svg {
+  color: grey;
+  height: 1.5rem;
+}
+.discover .discover-search .discover-search-wrapper input {
+  color: white;
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-weight: 500;
+}
+.discover .discover-search .discover-search-wrapper input:focus-visible {
+  outline: none;
+}
+.discover .discover-searchfor {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-bottom: 0.01rem solid white;
+}
+.discover .discover-searchfor span {
+  padding: 0.5rem;
+}/*# sourceMappingURL=discover.css.map */

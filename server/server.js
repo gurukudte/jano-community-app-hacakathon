@@ -6,10 +6,9 @@ dotenv.config();
 
 const app = express();
 
-
 const PORT = process.env.PORT || 8080;
 
-app.use(express.json())
+app.use(express.json());
 app.use("/api/auth", authRouter);
 app.get("/api", (req, res) => {
   res.status(200).json("Welcome to jano api");

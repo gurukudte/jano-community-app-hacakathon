@@ -1,0 +1,81 @@
+.profile {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  .profile-header {
+    position: sticky;
+    top: 0;
+    background: #2e2d2b;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    div {
+      padding: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      svg {
+        height: 1.5rem;
+      }
+      span {
+        padding-left: 2rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    .profile-details-profile {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 0.01rem solid white;
+      .profilepic {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2e2d2b;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+      .email {
+        padding-top: 0.5rem;
+      }
+      .location {
+        padding-top: 0.5rem;
+      }
+    }
+    button {
+      padding: 0.5rem;
+    }
+  }
+  .profile-stats {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.01rem solid white;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      place-items: center;
+      padding: 0.5rem;
+    }
+  }
+  .profile-details-all {
+    .profile-details-all-personal {
+      .heading {
+      }
+      .info {
+      }
+    }
+  }
+}

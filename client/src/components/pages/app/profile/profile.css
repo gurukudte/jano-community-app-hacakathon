@@ -1,0 +1,73 @@
+.profile {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}
+.profile .profile-header {
+  position: sticky;
+  top: 0;
+  background: #2e2d2b;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.profile .profile-header div {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile .profile-header div svg {
+  height: 1.5rem;
+}
+.profile .profile-header div span {
+  padding-left: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.profile .profile-details {
+  display: flex;
+  flex-direction: column;
+}
+.profile .profile-details .profile-details-profile {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.01rem solid white;
+}
+.profile .profile-details .profile-details-profile .profilepic {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2d2b;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.profile .profile-details .profile-details-profile .email {
+  padding-top: 0.5rem;
+}
+.profile .profile-details .profile-details-profile .location {
+  padding-top: 0.5rem;
+}
+.profile .profile-details button {
+  padding: 0.5rem;
+}
+.profile .profile-stats {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.01rem solid white;
+}
+.profile .profile-stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-items: center;
+  padding: 0.5rem;
+}/*# sourceMappingURL=profile.css.map */

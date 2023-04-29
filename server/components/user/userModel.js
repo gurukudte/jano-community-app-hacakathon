@@ -22,6 +22,27 @@ const UserSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
+    userGender: { type: String },
+    martialStatus: { type: String },
+    intrests: [{ type: String }],
+    thingsToTry: [{ type: String }],
+    thingsToTry: [{ type: String }],
+    regularThings: [{ type: String }],
+    knownLanguages: [{ type: String }],
+    meetupsAttended: { type: Number },
+    eventsAttended: { type: Number },
+    userLocation: { type: String },
+    socialProfiles: [{ type: String }],
+    placesVisited: [{ type: String }],
+    dob: {
+      type: Date,
+    },
+    smoking: {
+      type: String,
+    },
+    drinking: {
+      type: String,
+    },
     isAdmin: {
       type: Boolean,
       default: false,
