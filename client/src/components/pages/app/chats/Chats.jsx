@@ -88,7 +88,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Krishna</span>
@@ -100,7 +100,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Mushkan</span>
@@ -112,7 +112,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Raghu</span>
@@ -124,7 +124,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Ujwal</span>
@@ -136,7 +136,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>vaibhav</span>
@@ -148,7 +148,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Navneet</span>
@@ -160,7 +160,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Sam</span>
@@ -172,7 +172,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Gorge</span>
@@ -184,7 +184,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Guru</span>
@@ -196,7 +196,7 @@ const Chats = () => {
       </div>
         <div className="chats-chat-wrapper-chat">
           <div className="chats-chat-wrapper-chat-profilpic">
-            <img src={profilePic} alt="" />
+            <img src={profilePic} alt="profilepic" />
           </div>
           <div className="chats-chat-wrapper-chat-chatinfo">
             <span>Guru</span>

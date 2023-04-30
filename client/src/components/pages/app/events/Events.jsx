@@ -112,7 +112,7 @@ const Events = () => {
           </div>
           <div className="events-explore-events-events">
             <div className="events-explore-events-event">
-              <img src={meetup} alt="" />
+              <img src={meetup} alt="meetup" />
               <span>WED, MAY 10 - 7:00PM</span>
               <h2>Get meet new people</h2>
               <p>discription</p>
